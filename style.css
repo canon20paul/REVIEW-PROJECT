@@ -1,19 +1,15 @@
-
-
-
 @import 'https://fonts.googleapis.com/css?family=Lato:400,700';
 
 #nav-bar{
-    display:table-column;
-    position:absolute;
-    margin-left:40%;
-    margin-top:15%
+  display:table-column;
+  position:absolute;
+  margin-left:40%;
+  margin-top:15%
 }
 
 body{
-    background-color: #eee;
-    font-family: 'Lato', sans-serif;
-
+  background-color: #eee;
+  font-family: 'Lato', sans-serif;
 }
 
 a {
@@ -22,55 +18,34 @@ a {
 }
 
 header {
-    position:fixed;
-    top: 0;
-    min-height: 75px;
-    padding: 0px 20px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    background-color: #eee;
-    text-decoration :none;
-
+  position:fixed;
+  top: 0;
+  min-height: 75px;
+  padding: 0px 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #eee;
+  text-decoration :none;
 }
+
 header img{
-
-        width: 400px;
-        margin-left: 0;
+  width: 400px;
+  margin-left: 0;
 }
-
 
 header li {
-    list-style: none;
-    display:inline-block;
-    list-style: none;
-
+  list-style: none;
+  display:inline-block;
+  list-style: none;
   }
+
 .hero{
-    
-    display: flex;
-    justify-content: space-around;
-    
+  display: flex;
+  justify-content: space-around;
 }
 
-
-
-
-
-
-
-
-
-
 @media(min-width: 500px){
-    body{width:70%}
+  body{
+    width:70%}
 } 
-
-
-
-
-
-
-
-
-
