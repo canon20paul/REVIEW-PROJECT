@@ -1,14 +1,14 @@
 @import 'https://fonts.googleapis.com/css?family=Lato:400,700';
 
 #nav-bar {
-  display:table-column;
+  display: table-column;
   position: absolute;
   margin-left: 40%;
   margin-top: 15%;
 }
 
 body {
-  background-color:#eee;
+  background-color: #eee;
   font-family: 'Lato', sans-serif;
 }
 
@@ -45,7 +45,8 @@ header li {
   justify-content: space-around;
 }
 
-@media(min-width: 500px) {
+@media (min-width: 500px) {
+
   body {
-    width: 70%};
-} 
+    width: 70%;}
+  } 
