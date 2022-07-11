@@ -46,7 +46,7 @@ header li {
 }
 
 @media (min-width: 500px) {
-
   body {
-    width: 70%;}
-  } 
+    width: 70%;
+  }
+}
